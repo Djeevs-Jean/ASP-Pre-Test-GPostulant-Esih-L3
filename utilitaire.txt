@@ -1,0 +1,17 @@
+install first 
+    dotnet add package Microsoft.EntityFrameworkCore 
+    dotnet add package Microsoft.EntityFrameworkCore.Design
+    dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+    dotnet add package Microsoft.EntityFrameworkCore.tools
+
+utilitaire for database ef
+    dotnet tool install --global dotnet-ef
+    dotnet tool install -g dotnet-aspnet-codegenerator
+
+migration
+    dotnet ef migrations add initialCreate
+    dotnet ef database update
+
+new page
+    dotnet new page --name Index --output Pages/Pe...
+
