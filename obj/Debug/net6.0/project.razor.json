@@ -16313,6 +16313,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/desktop/Desktop/ASPWilky/Predev/GPostulant/Pages/Postulants/Delete.cshtml",
+      "TargetPath": "Pages\\Postulants\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/desktop/Desktop/ASPWilky/Predev/GPostulant/Pages/Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"

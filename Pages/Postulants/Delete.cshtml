@@ -1,0 +1,50 @@
+﻿@page "{id:int}"
+@model MyApp.Namespace.DeleteModel
+@{
+}
+
+<div class="container">
+    <h1 class="display-4">Delete Postulant</h1>
+
+    <h3>Are you sure you want to delete this?</h3>
+
+    <hr>
+
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.postulantDelete.Nom)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.postulantDelete.Nom)
+        </dd>
+
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.postulantDelete.Prenom)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.postulantDelete.Prenom)
+        </dd>
+
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.postulantDelete.Sexe)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.postulantDelete.Sexe)
+        </dd>
+
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.postulantDelete.Classe)
+        </dt>
+        <dd class="col-md-8">
+            @Html.DisplayFor(model => model.postulantDelete.Classe)
+        </dd>
+
+        <form action="" method="post">
+            <input hidden asp-for="postulantDelete.Id">
+            <button type="submit" value="Delete" class="btn btn-danger">Delete</button>
+
+            <a asp-page="./Index" class="btn btn-primary">Back To List</a>
+        </form>
+    </dl>
+    
+</div>
