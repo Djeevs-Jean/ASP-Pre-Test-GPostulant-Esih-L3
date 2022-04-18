@@ -16323,6 +16323,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/desktop/Desktop/ASPWilky/Predev/GPostulant/Pages/Postulants/Create.cshtml",
+      "TargetPath": "Pages\\Postulants\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/desktop/Desktop/ASPWilky/Predev/GPostulant/Pages/_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"

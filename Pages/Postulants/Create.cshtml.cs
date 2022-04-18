@@ -5,20 +5,26 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 #nullable disable
 namespace MyApp.Namespace
 {
-    public class IndexModel : PageModel
+    public class CreateModel : PageModel
     {
         private readonly PostulantContext postulantContext;
 
-        public IndexModel(PostulantContext postulantContext)
+        public CreateModel(PostulantContext postulantContext)
         {
             this.postulantContext = postulantContext;
         }
+
         [BindProperty]
-        public List<Postulant> postulantsListe {get; set;} = new ();
+        public Postulant postulantCreate {get; set;} = new Postulant();
 
         public void OnGet()
         {
-            postulantsListe = this.postulantContext.postulants.ToList();
+        }
+
+        public IActionResult OnPost() {
+            this.postulantContext.Add(postulantCreate);
+            this.postulantContext.SaveChanges();
+            return RedirectToPage("./Index");
         }
     }
 }
