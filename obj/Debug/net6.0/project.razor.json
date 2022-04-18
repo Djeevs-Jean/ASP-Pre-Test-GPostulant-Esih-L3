@@ -16346,6 +16346,11 @@
       "FilePath": "/home/desktop/Desktop/ASPWilky/Predev/GPostulant/Pages/_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/desktop/Desktop/ASPWilky/Predev/GPostulant/Pages/Postulants/Detail.cshtml",
+      "TargetPath": "Pages\\Postulants\\Detail.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

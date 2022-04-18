@@ -31,6 +31,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUG9zdHVsYW50cy9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/desktop/Desktop/ASPWilky/Predev/GPostulant/Pages/Postulants/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUG9zdHVsYW50cy9EZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/desktop/Desktop/ASPWilky/Predev/GPostulant/Pages/Postulants/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUG9zdHVsYW50cy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
