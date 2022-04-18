@@ -20,3 +20,10 @@ install3:
 
 install4:
 	dotnet add package Microsoft.EntityFrameworkCore.tools
+
+# ef database
+migrations:
+	dotnet ef migrations add InitialCreate
+
+migration_update:
+	dotnet ef database update
