@@ -16298,6 +16298,11 @@
   "RootNamespace": "GPostulant",
   "Documents": [
     {
+      "FilePath": "/home/desktop/Desktop/ASPWilky/Predev/GPostulant/Pages/Postulants/Index.cshtml",
+      "TargetPath": "Pages\\Postulants\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/desktop/Desktop/ASPWilky/Predev/GPostulant/Pages/Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"

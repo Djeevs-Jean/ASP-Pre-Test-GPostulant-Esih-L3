@@ -27,3 +27,6 @@ migrations:
 
 migration_update:
 	dotnet ef database update
+
+# add page
+# dotnet new page --name Index --output Pages/Postulants
