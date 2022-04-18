@@ -7,9 +7,17 @@
 <div class="container">
 
     <div class="row">
-        <div class="col-md-4">
-            <a asp-page="Create" class="btn btn-primary">Create Postulant</a>
+        <div class="input-group">
+            <div class="col-md-4">
+                <a asp-page="Create" class="btn btn-primary">Create Postulant</a>
+            </div>
+            <div class="col-md-8">
+                <form>
+                    <input type="text" asp-for="SearchString" placeholder="Search by name"class="form-">
+                </form>
+            </div>
         </div>
+        
     </div>
 
     <hr>
