@@ -16303,6 +16303,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/desktop/Desktop/ASPWilky/Predev/GPostulant/Pages/Postulants/Update.cshtml",
+      "TargetPath": "Pages\\Postulants\\Update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/desktop/Desktop/ASPWilky/Predev/GPostulant/Pages/Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
